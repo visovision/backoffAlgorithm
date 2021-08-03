@@ -1,0 +1,25 @@
+{
+    "name": "backoffAlgorithm",
+    "version": "1.1.0",
+    "description": "Algorithm for calculating exponential backoff with jitter for network retry attempts.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/FreeRTOS/backoffAlgorithm.git"
+    },
+    "license": "MIT",
+    "export": {
+        "include": ["source/*"]
+    },
+    "examples": [
+        {
+            "name": "README",
+            "base": ".",
+            "files": ["README.md"]
+        }
+    ],
+    "build": {
+        "includeDir": "source/include",
+        "srcDir": "source",
+        "srcFilter": "+<*.c>"
+    }
+}
